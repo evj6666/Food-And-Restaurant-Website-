@@ -1,0 +1,106 @@
+@media (max-width : 1036px)
+{
+    .testimonal-section .carousel-item .carousel-caption p{
+        font-size: 1.2rem;
+        line-height: 2.06rem;
+        padding: 0 11% 0.6rem;
+    }
+    .testimonal-section .carousel-item  img{
+        margin-bottom: 15rem;
+    }
+}
+
+@media (max-width : 1024px)
+{
+    
+    /* about section */
+    .testimonal-section .carousel-item .carousel-caption p{
+        font-size: 1.5rem;
+        line-height: 2.06rem;
+        padding: 0 11% 0.6rem;
+    }
+    .testimonal-section .carousel-item  img{
+        margin-bottom: 15rem;
+    }
+
+
+
+}
+
+@media (max-width : 991px)
+{
+    .text-content{
+        width: 100%;
+    }
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    .testimonal-section .carousel-item .carousel-caption p{
+        font-size: 1rem;
+        line-height: 2.06rem;
+        padding: 0;
+    }
+    .testimonal-section .carousel-item  img{
+        margin-bottom: 13rem;
+    }
+}
+
+
+/* mmobile */
+@media (max-width : 767px)
+{
+    /* about section */
+    h1{
+        font-size: 2.6rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .top-banner{
+        padding:10.87rem 0 9.37rem ;
+    }
+
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+    .testimonal-section .carousel-item .carousel-caption p{
+        font-size: 0.8rem;
+        line-height: 2.06rem;
+        padding: 0 11% 0.6rem;
+    }
+    .testimonal-section .carousel-item  img{
+        margin-bottom: 13rem;
+    }newsletter
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 90% !important;
+        margin-top: 1rem !important;
+        margin-left: 1rem !important;
+        height: 3rem;
+    }
+
+    .footer .footer-link,.footer a i{
+        padding: 0 0.7rem;
+    }
+    
+}
+
+@media (max-width:336px)
+{
+    .testimonal-section .carousel-item .carousel-caption p{
+        font-size: 0.5rem;
+        line-height: 2.06rem;
+        padding: 0 9% 0.6rem;
+    }
+    .testimonal-section .carousel-item  img{
+        margin-bottom: 13rem;
+    }
+
+}
+

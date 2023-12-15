@@ -1,0 +1,230 @@
+:root {
+    --primary-color: #3498db; /* This is the primary color value */
+  }
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.62rem;
+    transition: all 0.3s ease-out;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 1rem ;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#a82c48 ! important;
+    letter-spacing: 1px;
+}
+.main-btn{
+    padding: 0.312rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    background-color:#a82c48 ! important;
+    color:white;
+}
+
+/* change nav bar styling on scrool */
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: 0 0.125rem 1.75rem 0 rgb(0, 0,0,0.9);
+    transition: all 0.3s ease-out;
+}
+
+/* top banner */
+.top-banner{
+    width :100%;
+    background:url('../images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0  9.375rem;
+
+}
+.main-btn:hover{
+    background-color:white !important;
+    color:#a82c48 ! important;
+}
+
+#counter{
+    background-color: #a82c48 ! important;
+}
+
+
+/* about -section */
+.about-section{
+    background:white;
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+.about-section .text-sec{
+    padding-left:2rem ;
+}
+
+/* food section */
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+.food-type ul li ::before{
+    
+    position: absolute;
+    left: -2.18rem;
+    font-size:1.25rem;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00c';
+    display: inline-block;
+    padding-right:3px ;
+    font-weight: 900;
+    vertical-align:middle;
+}
+
+/* story */
+.story-section{
+    width: 100%;
+    background: url(../images/bg/bg-2.jpg) no-repeat center;
+    background-size:cover ;
+    text-align: center;
+    padding-top: 100px;
+}
+.story-section h1{
+    color:#a82c48 ! important;
+}
+
+.explore-food .card{
+    border: none;
+    border-radius: 0.97rem;
+    background-color: transparent;
+}
+.explore-food .card img{
+    border-radius: 0.97rem;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a82c48;
+    padding-bottom: 1rem;
+    border-bottom: 0.063rem solid white;
+}
+.explore-food .card span del{
+    margin-left: 0.5rem;
+}
+
+/* reviwes */
+.testimonal-section{
+    background-color: #a82c48;
+}
+.testimonal-section .carousel-item{
+    margin-top: 3rem;
+    padding: 5.5rem 3.125rem;
+    background-color: #fff;
+    border-radius: 0.93rem;
+    text-align: center;
+}
+.testimonal-section .carousel-item  img{
+    border-radius: 50%;
+    width: 5rem;
+    padding: 0.3125rem;
+    margin-bottom: 9rem;
+}
+
+.testimonal-section .carousel-item .carousel-caption p{
+    font-size: 1.31rem;
+    line-height: 2.06rem;
+    padding: 0 11% 0.6rem;
+}
+.testimonal-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+.testimonal-section .carousel-indicators button.active{
+    opacity: 1;
+}
+.testimonal-section .carousel-inner .carousel-item .carousel-caption h5{
+    color: #a82c48;
+}
+
+/* faq */
+.faq h1 span{
+    color: #a82c48;
+    font-family: 1.87rem;
+    margin-right: 0.312rem;
+}
+
+/* book food */
+.book-food{
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 72px;
+    padding: 4.37rem 0;
+}
+
+/* form-control */
+.newsletter{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control{
+    height: 3.2rem;
+    padding: 0 1.25rem;
+    font-size: 0.87rem;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    color: black;
+    border:0.187rem solid gray;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #a82c48;
+}
+
+/* footer */
+.footer{
+    background-color: #a82c48;
+}
+.footer .footer-link {
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 1.87rem;
+    text-decoration: none;
+}
+.footer .footer-link a:hover{
+    color : white !important;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
+
